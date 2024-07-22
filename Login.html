@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/7775c4a02f.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+ <!--Header Line start-->
+ <div class="container">
+    <nav>
+        <a href="Home.html"><img src="Image/logo.png" class="logo" ></a>
+        <ul>
+            <li><a href="Home.html" >HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="Menu.html" >MENU</a></li> 
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="Login.html" >REGISTRAR</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-cart-shopping fa-lg" id="cart-icon" style="color: #ffffff;"></i></li>
+        </ul>
+    </nav>
+</div>
+<!--Header Line End-->
+
+<!-- CART  -->
+<div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+
+    <!-- CONTENT  -->
+    <div class="cart-content">
+
+
+    </div>
+
+    <!-- TOTAL   -->
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <!-- BUY BUTTON  -->
+    <button type="button" class="btn-buy">Buy Now</button>
+    <!-- CART CLOSE  -->
+    <i class='bx bx-x' id="cart-close"></i>
+</div>
+
+<!---Cart end-->
+
+<!----Login Start-->
+<div class="lcontainer" id="lcontainer">
+    <div class="form-container sign-up">
+        <form>
+            <h1>Create Account</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your email for registeration</span>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <div class="form-container sign-in">
+        <form>
+            <h1>Sign In</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your email password</span>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <a href="#">Forget Your Password?</a>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <div class="toggle-container">
+        <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to use all of site features</p>
+                <button class="hidden" id="login">Sign In</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello, Coffee Lover!</h1>
+                <p>Register with your personal details to use all of site features</p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script2.js"></script>
+<!----Login End-->
+
+ <!--Footer Line start-->
+ <div class="footer-bottom1">
+    <p>copyright &copy;2024   |   Manoj Wikramanayake &#10084;</p>
+</div>
+<!--Footer Line endt-->
+<script src="script3.js"></script>   
+</body>
+</html>
